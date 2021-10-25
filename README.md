@@ -1,3 +1,7 @@
-# Push notification using FCM for Android/IOS
+# Push notification using FCM for Android/IOS with Firebase
 
-Send push notification using FCM for IOS and Android 
+For send push notification, you need following things in nodejs
+
+1) Express NPM
+2) node-fetch NPM
+3) googleapi NPM
