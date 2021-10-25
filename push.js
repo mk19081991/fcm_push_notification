@@ -6,7 +6,7 @@ var app = express();
 
 function getAccessToken() {
     return new Promise(function(resolve, reject) {
-        //const key = require('./talk-it-cad9e-firebase-adminsdk-szofl-75fc1114a2.json');
+        //const key = require('./**********************************.json');
         const jwtClient = new google.auth.JWT(
             key.client_email,
             null,
