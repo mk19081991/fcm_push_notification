@@ -71,7 +71,7 @@ app.get('/sendNotification', function(req, res) {
             }
         };
 
-        fetch('https://fcm.googleapis.com/v1/projects/talk-it-cad9e/messages:send', {
+        fetch('https://fcm.googleapis.com/******************/messages:send', {
                 method: 'post',
                 body: JSON.stringify(options),
                 headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + accessToken },
